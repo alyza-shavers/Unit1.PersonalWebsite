@@ -1,0 +1,65 @@
+/* style the navigation bar */
+nav {
+    background-color: rgba(101, 32, 101, 0.315);
+    color: black;
+    font-family: Cambria, serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-color: thistle ;
+    font-family: 'Gill Sans';
+}
+
+h1 {
+    text-align: justify;
+    color:black;
+}
+
+h2{
+    color: rgb(120, 6, 130, 0.675);
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h4 {
+    color: rgb(125, 9, 135, 0.675);
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+ul {
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+li {
+    margin-right: 9px;
+}
+
+img {
+    max-width: 100%;
+    margin-left: 300px;
+}

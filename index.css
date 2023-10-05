@@ -1,0 +1,68 @@
+/* style the navigation bar */
+nav {
+    background-color: rgba(101, 32, 101, 0.315);
+    color: black;
+    font-family: Cambria, serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    background-color: thistle ;
+    font-family: 'Gill Sans';
+}
+
+h1 {
+    text-align: justify;
+    color:black;
+}
+
+h2{
+    color: rgb(120, 6, 130, 0.675);
+    text-decoration: underline;
+    text-align: center;
+    font-size: xx-large;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+/* to center heading and align image/text side-by-side */
+.container {
+    text-align: center; 
+    /* center-align the heading*/
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    /* vertically center-aligns items */
+    justify-content: center;
+    /* horizontally center-align items */
+    width: 75%;
+    margin-left: 150px;
+    font-size: 23px;
+    line-height: 32px;
+}
+
+.flex-container img {
+    margin-right: 10px;
+    margin-left: 50px;
+    /* add spacing between image and text */
+}
